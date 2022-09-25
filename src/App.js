@@ -14,6 +14,7 @@ import Site from "./pages/Site";
 
 
 export default function App() {
+  console.log("hi")
   return (
     <BrowserRouter>
       <Routes>
