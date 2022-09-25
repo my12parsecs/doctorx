@@ -17,7 +17,7 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/doctorx" element={<SharedLayout />}>
+        <Route path="/" element={<SharedLayout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="episode" element={<Episode />} />

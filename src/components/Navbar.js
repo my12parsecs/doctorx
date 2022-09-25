@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <NavLink
-        to="/doctorx"
+        to="/"
         className={({ isActive }) => {
           return isActive ? "active logo" : "logo";
         }}
