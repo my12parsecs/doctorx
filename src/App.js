@@ -15,7 +15,6 @@ import Site from "./pages/Site";
 
 export default function App() {
   return (
-    <BrowserRouter>
       <Routes>
         <Route path="/doctorx" element={<SharedLayout />}>
           <Route index element={<Home />} />
@@ -29,6 +28,5 @@ export default function App() {
           <Route path="/site" element={<Site />} />
         </Route>
       </Routes>
-    </BrowserRouter>
   );
 }
