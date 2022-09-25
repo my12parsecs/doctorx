@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/doctorx/static/css/main.19b675c2.css",
+    "main.js": "/doctorx/static/js/main.8b62cf5d.js",
+    "index.html": "/doctorx/index.html",
+    "main.19b675c2.css.map": "/doctorx/static/css/main.19b675c2.css.map",
+    "main.8b62cf5d.js.map": "/doctorx/static/js/main.8b62cf5d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.19b675c2.css",
+    "static/js/main.8b62cf5d.js"
+  ]
+}
