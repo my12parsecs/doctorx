@@ -17,16 +17,16 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<SharedLayout />}>
+        <Route path="/doctorx" element={<SharedLayout />}>
           <Route index element={<Home />} />
-          <Route path="about" element={<About />} />
-          <Route path="episode" element={<Episode />} />
-          <Route path="character" element={<Character />} />
-          <Route path="trivia" element={<Trivia />} />
-          <Route path="song" element={<Song />} />
-          <Route path="location" element={<Location />} />
-          <Route path="scene" element={<Scene />} />
-          <Route path="site" element={<Site />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/episode" element={<Episode />} />
+          <Route path="/character" element={<Character />} />
+          <Route path="/trivia" element={<Trivia />} />
+          <Route path="/song" element={<Song />} />
+          <Route path="/location" element={<Location />} />
+          <Route path="/scene" element={<Scene />} />
+          <Route path="/site" element={<Site />} />
         </Route>
       </Routes>
     </BrowserRouter>
