@@ -16,16 +16,16 @@ import Site from "./pages/Site";
 export default function App() {
   return (
       <Routes>
-        <Route path="/doctorx" element={<SharedLayout />}>
+        <Route path="/doctorx/" element={<SharedLayout />}>
           <Route index element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/episode" element={<Episode />} />
-          <Route path="/character" element={<Character />} />
-          <Route path="/trivia" element={<Trivia />} />
-          <Route path="/song" element={<Song />} />
-          <Route path="/location" element={<Location />} />
-          <Route path="/scene" element={<Scene />} />
-          <Route path="/site" element={<Site />} />
+          <Route path="/doctorx/about" element={<About />} />
+          <Route path="/doctorx/episode" element={<Episode />} />
+          <Route path="/doctorx/character" element={<Character />} />
+          <Route path="/doctorx/trivia" element={<Trivia />} />
+          <Route path="/doctorx/song" element={<Song />} />
+          <Route path="/doctorx/location" element={<Location />} />
+          <Route path="/doctorx/scene" element={<Scene />} />
+          <Route path="/doctorx/site" element={<Site />} />
         </Route>
       </Routes>
   );

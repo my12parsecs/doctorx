@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar">
       <NavLink
-        to="/doctorx"
+        to="/doctorx/"
         className={({ isActive }) => {
           return isActive ? "active logo" : "logo";
         }}
@@ -13,7 +13,7 @@ export default function Navbar() {
       </NavLink>
       <div className="navbar-right">
         <NavLink
-          to="/episode"
+          to="/doctorx/episode"
           className={({ isActive }) => {
             return isActive ? "link active" : "link";
           }}
@@ -21,7 +21,7 @@ export default function Navbar() {
           エピソード
         </NavLink>
         <NavLink
-          to="/character"
+          to="/doctorx/character"
           className={({ isActive }) => {
             return isActive ? "link active" : "link";
           }}
@@ -29,7 +29,7 @@ export default function Navbar() {
           登場人物
         </NavLink>
         <NavLink
-          to="/song"
+          to="/doctorx/song"
           className={({ isActive }) => {
             return isActive ? "link active" : "link";
           }}
