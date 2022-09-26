@@ -1,19 +1,25 @@
 .body{
   padding: 0;
   margin: 0;
-  width: 100%;
   font-family: 'Noto Sans JP', sans-serif;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.entire{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .navbar {
+  display: flex;
   margin: calc(50% - 50vw);
   width: 100vw;
-  height: 50px;
-  display: flex;
-  background-color: rgb(238, 238, 238);
+  height: 58px;
+  background-color: rgb(8, 60, 109);
   justify-content: space-between;
   align-items: center;
-  border: solid 1px black;
   font-family: 'Noto Sans JP', sans-serif;
 }
 .navbar-right{
@@ -24,7 +30,7 @@
 }
 .logo{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   margin: 0 0 0 40px;
   font-size: 17px;
 }
@@ -33,13 +39,93 @@
   font-size: 25px;
 }
 .X{
-  color: rgb(149, 14, 14);
+  color: rgb(225, 22, 22);
 }
 .active{
-  color: rgb(0, 0, 0);
+  color: rgb(225, 22, 22);
 }
 .link{
   text-decoration: none;
-  color: rgb(194, 14, 14);
+  color: rgb(255, 255, 255);
   margin: 0 20px;
+}
+
+
+
+/* main{
+  height: 2000px;
+} */
+
+.banner{
+  padding: 0;
+  position: relative;
+}
+.banner-title{
+  position: absolute;
+  bottom: -10%;
+  left: -13%;
+  color: rgb(255, 255, 255);
+  font-family: 'Old Standard TT', serif;
+  font-size: 15vw;
+  transform: scale(0.60, 1);
+}
+/* .bb{
+  font-family: 'Oranienbaum', serif;
+  font-size: 120px;
+  transform: scale(0.65, 1);
+  color: white;
+}
+.cc{
+  font-family: 'Vidaloka', serif;
+  font-size: 120px;
+  transform: scale(0.575, 1);
+  color: white;
+} */
+.banner-subtitle{
+  display: flex;
+}
+.subtitle{
+  position: absolute;
+  bottom: 2%;
+  left: 0%;
+  font-size: 44px;
+  font-style: italic;
+  color: linear-gradient(#e9ce24, #d6a40f);
+  background: -webkit-linear-gradient(#fadc1f, #9c7e23);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
+.fansite{
+  font-size: 5vw;
+  color: white
+}
+
+.banner-photo{
+  padding: 0;
+  margin-top: 8px;
+  display: block;
+  width: 100vw;
+  height: 45vw;
+  margin-left: calc(-50vw + 50%);
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+
+
+.home-content-container{
+  height: 2000px;
+}
+
+
+
+.footer{
+  background-color: black;
+  margin-top: auto;
+  height: 400px;
+  margin: calc(50% - 50vw);
+  width: 100vw;
 }

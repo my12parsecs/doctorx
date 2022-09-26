@@ -9,7 +9,7 @@ export default function Navbar() {
           return isActive ? "active logo" : "logo";
         }}
       >
-        <span className="logo-title">Doctor-<span className="X">X</span></span> Fansite
+        <span className="logo-title">Doctor-<span className="X">X</span></span> Fansite BETA
       </NavLink>
       <div className="navbar-right">
         <NavLink
