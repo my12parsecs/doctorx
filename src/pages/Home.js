@@ -33,6 +33,15 @@ export default function Home() {
             PageMaker including versions of Lorem Ipsum.
           </p>
         </div>
+        <div className="home-content"></div>
+        <div className="home-content"></div>
+        <div className="home-content"></div>
+        <div className="home-content">
+            <h3>Episodes</h3>
+        </div>
+        <div className="home-content">
+            <h3>Characters</h3>
+        </div>
       </div>
     </main>
   );

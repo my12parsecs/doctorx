@@ -86,9 +86,9 @@
 }
 .subtitle{
   position: absolute;
-  bottom: 2%;
+  bottom: 3%;
   left: 0%;
-  font-size: 44px;
+  font-size: 4.35vw;
   font-style: italic;
   color: linear-gradient(#e9ce24, #d6a40f);
   background: -webkit-linear-gradient(#fadc1f, #9c7e23);
@@ -117,15 +117,55 @@
 
 
 .home-content-container{
-  height: 2000px;
+  height: 1000px;
 }
 
 
 
 .footer{
-  background-color: black;
+  background-color: rgb(97, 15, 129);
+  color: white;
   margin-top: auto;
-  height: 400px;
+  height: 500px;
   margin: calc(50% - 50vw);
   width: 100vw;
+}
+.hospital{
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 40px;
+}
+.footer-split{
+  margin: 40px 0 10px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.footer-about{
+  width: 35vw;
+  padding: 5px 15px 15px 15px;
+  margin-bottom: 18px;
+  border: solid 1px;
+}
+.footer-about a{
+  color: white;
+  text-decoration: underline;
+}
+.footer-twitter{
+  color: white;
+  margin-left: 20px;
+}
+.footer-page{
+  width: 30vw;
+}
+.footer-bottom{
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  border-top: solid 1px;
+  margin: 80px auto 0 auto;
+  width: 70vw;
+}
+.footer-bottom li{
+  margin: 30px 15px 0px 15px;
 }
