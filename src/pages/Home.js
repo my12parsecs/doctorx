@@ -1,6 +1,9 @@
 import Bridge from "../Banner-photo.jpg";
 
-export default function Home() {
+import i18next, { t } from "i18next";
+
+export default function Home(props) {
+
   return (
     <main>
       <div className="banner">
@@ -19,9 +22,18 @@ export default function Home() {
         </div>
       </div>
       <div className="home-content-container">
+        <h4>今後追加するもの</h4>
+        <p>人物、エピソード、トリビア、曲、ロケ地、名シーン、術式、矛盾点などページ追加</p>
+        <p>多言語対応</p>
+        <p>フォーム設置</p>
+
+        <p>{t("welcome")}</p>
+        
+
+
         <div className="home-content">
-          <h3>Trivia</h3>
-          <p>
+          <h3 className="home-content-header">Trivia</h3>
+          <p className="home-content-text">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s, when an unknown printer took a galley of type

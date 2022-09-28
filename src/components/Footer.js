@@ -1,3 +1,4 @@
+import { t } from "i18next"
 import { Link } from "react-router-dom"
 
 export default function Footer(){
@@ -8,9 +9,9 @@ export default function Footer(){
             <div className="footer-split">
                 <div className="footer-left">
                     <div className="footer-about">
-                        <h3>このサイトについて</h3>
-                        <p>当サイトは、ドラマ「ドクターX」のファン個人による非公式ファンサイトです。</p>
-                        <a href="https://www.tv-asahi.co.jp/doctor-x/">公式サイト</a>
+                        <h3>{t("aboutSite")}</h3>
+                        <p>{t("aboutSiteExplanation")}</p>
+                        <a href="https://www.tv-asahi.co.jp/doctor-x/">{t("officialSite")}</a>
                     </div>
                     <a href="" className="footer-twitter">@DoctorXFan</a>
                 </div>
@@ -20,9 +21,9 @@ export default function Footer(){
                 </div>
             </div>
             <div className="footer-bottom">
-                <li>このサイトについて</li>
-                <li>サイトマップ</li>
-                <li>お問い合わせ</li>
+                <li>{t("aboutSite")}</li>
+                <li>{t("sitemap")}</li>
+                <li>{t("contact")}</li>
             </div>
         </footer>
     )

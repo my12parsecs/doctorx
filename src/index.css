@@ -22,6 +22,10 @@
   align-items: center;
   font-family: 'Noto Sans JP', sans-serif;
 }
+.navbar-left{
+  display: flex;
+  align-items: center;
+}
 .navbar-right{
   display: flex;
   justify-content: space-between;
@@ -47,8 +51,57 @@
 .link{
   text-decoration: none;
   color: rgb(255, 255, 255);
-  margin: 0 20px;
+  margin: 0px 6px 0px 10px;
 }
+.lang-button{
+  cursor: pointer;
+  background-color: rgb(186, 0, 0);
+  color: white;
+  border: 0px;
+  border-radius: 6px;
+  padding: 6px;
+  margin-left: 12px;
+  font-size: 13px;
+}
+input[type=checkbox]{
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 40px;
+  height: 20px;
+  background: grey;
+  display: block;
+  border-radius: 20px;
+  position: relative;
+  margin-top: 3px;
+}
+label:after {
+  content: '';
+  position: absolute;
+  top: 1.25px;
+  left: 1.25px;
+  width: 17px;
+  height: 17px;
+  background: #fff;
+  border-radius: 22.5px;
+  transition: 0.3s;
+}
+input:checked + label {
+  background: grey;
+}
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-80%);
+}
+label:active:after {
+  width: 17px;
+}
+
+
 
 
 
@@ -118,6 +171,12 @@
 
 .home-content-container{
   height: 1000px;
+}
+.home-content-header{
+  font-size: 30px;
+}
+.home-content-text{
+
 }
 
 

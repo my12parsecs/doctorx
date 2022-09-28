@@ -1,26 +1,38 @@
 import { logDOM } from "@testing-library/react";
+import { t } from "i18next";
 import { NavLink } from "react-router-dom";
 
-export default function Navbar() {
+export default function Navbar(props) {
   return (
     <nav className="navbar">
-      <NavLink
-        to="/"
-        className={({ isActive }) => {
-          return "logo"
-          // return isActive ? "active logo" : "logo";
-        }}
-      >
-        <span className="logo-title">Doctor-<span className="X">X</span></span> Fansite BETA
-      </NavLink>
+      <div className="navbar-left">
+        <NavLink
+          to="/"
+          className={({ isActive }) => {
+            return "logo";
+            // return isActive ? "active logo" : "logo";
+          }}
+        >
+          <span className="logo-title">
+            Doctor-<span className="X">X</span>
+          </span>{" "}
+          Fansite BETA
+        </NavLink>
+        <button onClick={props.handleClick} className="lang-button">
+          {props.lang === "en" ? "English" : "日本語"}
+        </button>
+      </div>
       <div className="navbar-right">
+        {/* below is the toggle */}
+        {/* <input type="checkbox" id="switch" />
+        <label for="switch">Toggle</label> */}
         <NavLink
           to="/episode"
           className={({ isActive }) => {
             return isActive ? "link active" : "link";
           }}
         >
-          エピソード
+          {t("episodes")}
         </NavLink>
         <NavLink
           to="/character"
@@ -28,7 +40,7 @@ export default function Navbar() {
             return isActive ? "link active" : "link";
           }}
         >
-          登場人物
+          {t("characters")}
         </NavLink>
         <NavLink
           to="/song"
@@ -36,7 +48,7 @@ export default function Navbar() {
             return isActive ? "link active" : "link";
           }}
         >
-          曲
+          {t("songs")}
         </NavLink>
       </div>
     </nav>

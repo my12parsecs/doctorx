@@ -1,5 +1,11 @@
-import React from "react";
+import React, { useState, useEffect } from 'react';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+//change language related
+import "./i18n"
+import { useTranslation } from 'react-i18next';
+import i18next, { t } from "i18next";
+
 
 import SharedLayout from "./pages/SharedLayout";
 import Home from "./pages/Home";
@@ -14,9 +20,21 @@ import Site from "./pages/Site";
 
 
 export default function App() {
+
+  const [lang, setLang] = useState("en")
+  const {t} = useTranslation()
+  function langy(){
+    console.log(lang);
+    i18next.changeLanguage(lang)
+    setLang((prev)=>{
+          return prev === "ja" ? "en" : "ja"
+    })
+    console.log(lang);
+  }
+
   return (
       <Routes>
-        <Route path="/" element={<SharedLayout />}>
+        <Route path="/" element={<SharedLayout handleClick={langy} lang={lang}/>}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/episode" element={<Episode />} />
