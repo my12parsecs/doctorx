@@ -13,10 +13,8 @@ export default function Navbar(props) {
             // return isActive ? "active logo" : "logo";
           }}
         >
-          <span className="logo-title">
-            Doctor-<span className="X">X</span>
-          </span>{" "}
-          Fansite BETA
+          <span className="logo-title">Doctor-<span className="X">X</span></span>
+          <div className="logo-subtitle">Fansite Beta</div>
         </NavLink>
         <button onClick={props.handleClick} className="lang-button">
           {props.lang === "en" ? "English" : "日本語"}

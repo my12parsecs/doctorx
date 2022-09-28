@@ -1,26 +1,25 @@
-.body{
+body{
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
-  box-sizing: border-box;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .entire{
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  box-sizing: border-box;
 }
 
 .navbar {
   display: flex;
   margin: calc(50% - 50vw);
   width: 100vw;
-  height: 58px;
+  height: 65px;
   background-color: rgb(8, 60, 109);
   justify-content: space-between;
   align-items: center;
-  font-family: 'Noto Sans JP', sans-serif;
 }
 .navbar-left{
   display: flex;
@@ -29,18 +28,27 @@
 .navbar-right{
   display: flex;
   justify-content: space-between;
+  margin-top: 5px;
   margin-right: 30px;
   font-size: 17px;
 }
 .logo{
+  display: flex;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  margin: 0 0 0 40px;
+  margin: 10px 0 auto 20px;
   font-size: 17px;
 }
 .logo-title{
-  font-family: 'Vidaloka', serif;
-  font-size: 25px;
+  font-family: 'Old Standard TT';
+  font-size: 29px;
+  transform: scale(0.80, 1);
+}
+.logo-subtitle{
+  color: white;
+  font-family: 'Noto Sans JP', sans-serif;
+  transform: scale(1, 1);
+  margin: 5px 0px 0px 0px;
 }
 .X{
   color: rgb(225, 22, 22);
@@ -51,7 +59,7 @@
 .link{
   text-decoration: none;
   color: rgb(255, 255, 255);
-  margin: 0px 6px 0px 10px;
+  margin: auto 6px auto 10px;
 }
 .lang-button{
   cursor: pointer;
@@ -60,6 +68,7 @@
   border: 0px;
   border-radius: 6px;
   padding: 6px;
+  margin-top: 7px;
   margin-left: 12px;
   font-size: 13px;
 }
@@ -105,9 +114,8 @@ label:active:after {
 
 
 
-/* main{
-  height: 2000px;
-} */
+main{
+}
 
 .banner{
   padding: 0;
@@ -115,8 +123,8 @@ label:active:after {
 }
 .banner-title{
   position: absolute;
-  bottom: -10%;
-  left: -13%;
+  bottom: -5%;
+  left: -12%;
   color: rgb(255, 255, 255);
   font-family: 'Old Standard TT', serif;
   font-size: 15vw;
@@ -139,8 +147,8 @@ label:active:after {
 }
 .subtitle{
   position: absolute;
-  bottom: 3%;
-  left: 0%;
+  bottom: 7%;
+  left: 0.5%;
   font-size: 4.35vw;
   font-style: italic;
   color: linear-gradient(#e9ce24, #d6a40f);
@@ -154,23 +162,20 @@ label:active:after {
   font-size: 5vw;
   color: white
 }
-
 .banner-photo{
   padding: 0;
-  margin-top: 8px;
   display: block;
   width: 100vw;
   height: 45vw;
   margin-left: calc(-50vw + 50%);
+  margin-top: 7.741px;
   max-width: none;
   object-fit: cover;
   object-position: 50% 20%;
 }
 
 
-
 .home-content-container{
-  height: 1000px;
 }
 .home-content-header{
   font-size: 30px;
@@ -178,6 +183,71 @@ label:active:after {
 .home-content-text{
 
 }
+
+
+.section-banner{
+  position: relative;
+}
+.section-banner-photo{
+  padding: 0;
+  margin-top: 7.741px;
+  display: block;
+  width: 100vw;
+  height: 200px;
+  margin-left: calc(-50vw + 50%);
+  max-width: none;
+  object-fit: cover;
+  object-position: 50% 59%;
+}
+.section-title{
+  width: 310px;
+  height: 100px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  color: rgb(255, 255, 255);
+  font-family: 'Old Standard TT', serif;
+  font-size: 70px;
+  transform: scale(0.60, 1);
+  text-align: center;
+}
+
+
+.season-title{
+  text-align: center;
+  font-size: 25px;
+}
+.episode-split{
+  display: flex;
+  justify-content: space-around;
+  margin: 20px auto;
+}
+.episode-left{
+}
+.episode-image{
+  width: 35vw;
+  margin-top: 7.741px;
+  margin-right: 0px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+.episode-right{
+  width: 20vw;
+}
+.episode-right h4{
+  font-size: 16px;
+  text-align: left;
+  margin: 8px 0;
+}
+
+
+
+
+
+
 
 
 
@@ -203,7 +273,7 @@ label:active:after {
 .footer-about{
   width: 35vw;
   padding: 5px 15px 15px 15px;
-  margin-bottom: 18px;
+  margin-bottom: 10px;
   border: solid 1px;
 }
 .footer-about a{

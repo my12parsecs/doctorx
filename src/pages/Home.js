@@ -1,4 +1,4 @@
-import Bridge from "../Banner-photo.jpg";
+import Bridge from "../bridge.jpg";
 
 import i18next, { t } from "i18next";
 
