@@ -1,9 +1,10 @@
  import SectionBanner from "../components/SectionBanner"
+ import yuinside from "../images/yuinside.jpg"
  
  export default function Character(){
     return(
         <div>
-            <SectionBanner section="Characters" />
+            <SectionBanner bannerImage={yuinside} section="Characters" />
             <div className="season">
                 <h3>Season 1</h3>
                 <h4>第1話</h4>

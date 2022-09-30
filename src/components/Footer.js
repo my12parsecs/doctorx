@@ -11,12 +11,21 @@ export default function Footer() {
           <div className="footer-about">
             <h3>{t("aboutSite")}</h3>
             <p>{t("aboutSiteExplanation")}</p>
-            <a href="https://www.tv-asahi.co.jp/doctor-x/">
+            <a
+              href="https://www.tv-asahi.co.jp/doctor-x/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t("officialSite")}
             </a>
           </div>
-          <a href="" className="footer-twitter">
-            @DoctorXFan
+          <a
+            href="https://twitter.com/DoctorXFansite"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-twitter"
+          >
+            @DoctorXFansite
           </a>
         </div>
         <div className="footer-page">

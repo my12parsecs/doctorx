@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 export default function Navbar(props) {
   return (
     <nav className="navbar">
+      
       <div className="navbar-left">
         <NavLink
           to="/"
@@ -20,6 +21,7 @@ export default function Navbar(props) {
           {props.lang === "en" ? "English" : "日本語"}
         </button>
       </div>
+
       <div className="navbar-right">
         {/* below is the toggle */}
         {/* <input type="checkbox" id="switch" />
