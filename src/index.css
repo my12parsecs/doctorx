@@ -1,8 +1,10 @@
+html{}
 body{
   padding: 0;
   margin: 0;
   font-family: 'Noto Sans JP', sans-serif;
   overflow-x: hidden;
+  background-color: rgb(97, 15, 129);
 }
 
 .entire{
@@ -10,6 +12,7 @@ body{
   flex-direction: column;
   min-height: 100vh;
   box-sizing: border-box;
+  background-color: white;
 }
 
 .navbar {
@@ -17,7 +20,8 @@ body{
   margin: calc(50% - 50vw);
   width: 100vw;
   height: 65px;
-  background-color: rgb(8, 60, 109);
+  background-color: rgb(97, 15, 129);
+  /* background-color: rgb(8, 60, 109); */
   justify-content: space-between;
   align-items: center;
 }
@@ -28,7 +32,6 @@ body{
 .navbar-right{
   display: flex;
   justify-content: space-between;
-  margin-top: 5px;
   margin-right: 30px;
   font-size: 17px;
 }
@@ -54,12 +57,21 @@ body{
   color: rgb(225, 22, 22);
 }
 .active{
-  color: rgb(225, 22, 22);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  /* text-shadow: 3px 2px 2px rgb(0, 0, 0); */
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 6px;
+  display: flex;
+  flex-direction: column;
 }
 .link{
   text-decoration: none;
   color: rgb(255, 255, 255);
-  margin: auto 6px auto 10px;
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-right: 6px;
 }
 .lang-button{
   cursor: pointer;
@@ -71,6 +83,16 @@ body{
   margin-top: 7px;
   margin-left: 12px;
   font-size: 13px;
+}
+.dot{
+  height: 3px;
+  width: 3px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+  margin: 0px auto 0 auto;
+}
+.link > .dot{
+  visibility: hidden;
 }
 input[type=checkbox]{
   height: 0;
@@ -282,6 +304,61 @@ main{
 .s-episode-info{
   width: 35vw;
   margin-left: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.song h2{
+  margin-left: 100px;
+  margin-bottom: 0px;
+}
+.theme{
+  border-bottom: 0.5px solid grey;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+.theme-split{
+  display: flex;
+  justify-content: center;
+}
+.theme-song{
+}
+.theme-list{
+  list-style: none;
+}
+.outro{
+  border-bottom: 0.5px solid grey;
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.outro-song{
+  margin: 0 auto;
+  width: 390px;
+  justify-content: center;
+}
+.outro-list{
+  list-style: none;
+}
+.other{
+  margin-bottom: 100px;
+}
+.other-song{
+  margin: 0 auto;
+  width: 70vw;
+}
+.other-song-flex{
+  display: flex;
+  justify-content: space-between;
 }
 
 

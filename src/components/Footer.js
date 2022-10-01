@@ -34,7 +34,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <a>{t("aboutSite")}</a>
+        <Link to="/about">{t("aboutSite")}</Link>
         <a>{t("sitemap")}</a>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScoU6_8uAFqiih3tZiwMoU1TvXo3LVn2PDy4qFqglZDzISNrg/viewform"

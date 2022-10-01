@@ -1,11 +1,9 @@
-import { logDOM } from "@testing-library/react";
 import { t } from "i18next";
 import { NavLink } from "react-router-dom";
 
 export default function Navbar(props) {
   return (
     <nav className="navbar">
-      
       <div className="navbar-left">
         <NavLink
           to="/"
@@ -14,7 +12,9 @@ export default function Navbar(props) {
             // return isActive ? "active logo" : "logo";
           }}
         >
-          <span className="logo-title">Doctor-<span className="X">X</span></span>
+          <span className="logo-title">
+            Doctor-<span className="X">X</span>
+          </span>
           <div className="logo-subtitle">Fansite Beta</div>
         </NavLink>
         <button onClick={props.handleClick} className="lang-button">
@@ -26,30 +26,33 @@ export default function Navbar(props) {
         {/* below is the toggle */}
         {/* <input type="checkbox" id="switch" />
         <label for="switch">Toggle</label> */}
-        <NavLink
-          to="/episode"
-          className={({ isActive }) => {
-            return isActive ? "link active" : "link";
-          }}
-        >
-          {t("episodes")}
-        </NavLink>
-        <NavLink
-          to="/character"
-          className={({ isActive }) => {
-            return isActive ? "link active" : "link";
-          }}
-        >
-          {t("characters")}
-        </NavLink>
-        <NavLink
-          to="/song"
-          className={({ isActive }) => {
-            return isActive ? "link active" : "link";
-          }}
-        >
-          {t("songs")}
-        </NavLink>
+          <NavLink
+            to="/episode"
+            className={({ isActive }) => {
+              return isActive ? "active" : "link";
+            }}
+          >
+            {t("episodes")}
+            <div className="dot"></div>
+          </NavLink>
+          <NavLink
+            to="/character"
+            className={({ isActive }) => {
+              return isActive ? "active" : "link";
+            }}
+          >
+            {t("characters")}
+            <div className="dot"></div>
+          </NavLink>
+          <NavLink
+            to="/song"
+            className={({ isActive }) => {
+              return isActive ? "active" : "link";
+            }}
+          >
+            {t("songs")}
+            <div className="dot"></div>
+          </NavLink>
       </div>
     </nav>
   );
