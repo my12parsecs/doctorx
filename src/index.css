@@ -238,8 +238,13 @@ main{
 }
 
 
+
+
 .season{
   border-bottom: 0.5px solid grey;
+}
+.season-last{
+  padding-bottom: 40px;
 }
 .season-title{
   text-align: center;
@@ -350,7 +355,7 @@ main{
   list-style: none;
 }
 .other{
-  margin-bottom: 100px;
+  margin-bottom: 70px;
 }
 .other-song{
   margin: 0 auto;
@@ -402,6 +407,13 @@ main{
 }
 .footer-page{
   width: 30vw;
+  display: flex;
+  flex-direction: column;
+}
+.footer-page-link{
+  text-decoration: none;
+  color: white;
+  margin-bottom: 5px;
 }
 .footer-bottom{
   display: flex;
@@ -414,5 +426,5 @@ main{
 .footer-bottom a{
   color: white;
   text-decoration: none;
-  margin: 30px 15px 0px 15px;
+  margin: 30px 15px 30px 15px;
 }

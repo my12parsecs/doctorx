@@ -6,7 +6,7 @@ import { t } from "i18next";
 
 export default function Episodes() {
   return (
-    <div>
+    <div className="episode-all">
       <section className="season">
         <h3 className="season-title">Season 1</h3>
         <div className="episode-split">
@@ -157,7 +157,7 @@ export default function Episodes() {
         </div>
       </section>
 
-      <section className="season">
+      <section className="season-last">
         <h3 className="season-title">Season 6</h3>
         <div className="episode-split">
           <div className="episode-left">

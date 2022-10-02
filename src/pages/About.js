@@ -6,7 +6,21 @@ export default function About(){
         <div>
             <SectionBanner bannerImage={lobby} section="About" />
             <h1>yo yo yo</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>これは一匹狼の女医の話である。
+
+大学病院の医局は弱体化し、
+
+命のやりと りをする医療もついに弱肉強食の時代に突入した。
+
+ その危機的な医療現場の穴埋めに現れたのが
+
+フリーランス…すなわち、一匹狼のドクターである。 
+
+たとえば、この女。 群れを嫌い、権威を嫌い、束縛を嫌い、
+
+専門医のライセンスと叩き上げのスキルだけが彼女の武器だ。
+
+ 外科医、大門未知子。またの名を、ドクター X。</p>
         </div>
     )
 }

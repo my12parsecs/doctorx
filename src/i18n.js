@@ -74,7 +74,8 @@ const translationsJa = {
     6.11: "重病に侵された幼き天才ピアニスト、吉行和十が入院する。ピアノが弾けなくなるかもしれないという不安を抱えながら、未知子を信じ手術に臨むが...。",
     soundtrack: "サウンドトラック",
     outro: "主題歌",
-    otherSongs: "その他"
+    otherSongs: "その他",
+    voiceOver: "冒頭ナレーション"
 }
 const translationsEn = {
     welcome: "Welcome!",
@@ -148,7 +149,8 @@ const translationsEn = {
     6.10: "",
     soundtrack: "Soundtrack",
     outro: "Outro",
-    otherSongs: "Other Songs"
+    otherSongs: "Other Songs",
+    voiceOver: "Intro Voiceover"
 }
 // en: {
 //     translation: {

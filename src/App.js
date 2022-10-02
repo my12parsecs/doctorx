@@ -23,6 +23,7 @@ import Location from "./pages/Location";
 import Scene from "./pages/Scene";
 import Site from "./pages/Site";
 import Error from './pages/Error';
+import VoiceOver from './pages/VoiceOver';
 
 
 export default function App() {
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="/" element={<SharedLayout handleClick={langy} lang={lang}/>}>
           <Route index element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path='/voiceover' element={<VoiceOver />} />
 
           <Route path="/episode" element={<SharedEpisodeLayout />}>
             <Route index element={<EpisodeAll />} />

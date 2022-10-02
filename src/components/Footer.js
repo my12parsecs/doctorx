@@ -29,10 +29,13 @@ export default function Footer() {
           </a>
         </div>
         <div className="footer-page">
-          <Link>エピソード</Link>
-          <h3>hello</h3>
+          <Link to="/voiceover" className="footer-page-link">{t("voiceOver")}</Link>
+          <Link to="/episode" className="footer-page-link">{t("episodes")}</Link>
+          <Link to="/character" className="footer-page-link">{t("characters")}</Link>
+          <Link to="/song" className="footer-page-link">{t("songs")}</Link>
         </div>
       </div>
+
       <div className="footer-bottom">
         <Link to="/about">{t("aboutSite")}</Link>
         <a>{t("sitemap")}</a>
