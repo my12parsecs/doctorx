@@ -18,7 +18,10 @@ import Ope from './pages/Ope';
 
 import Character from "./pages/Character";
 import Trivia from "./pages/Trivia";
+
 import Song from "./pages/Song";
+import SongLyrics from './pages/songLyrics';
+
 import Location from "./pages/Location";
 import Scene from "./pages/Scene";
 import Site from "./pages/Site";
@@ -54,7 +57,10 @@ export default function App() {
 
           <Route path="/character" element={<Character />} />
           <Route path="/trivia" element={<Trivia />} />
+
           <Route path="/song" element={<Song />} />
+          <Route path='/lyrics' element={<SongLyrics />} />
+
           <Route path="/location" element={<Location />} />
           <Route path="/scene" element={<Scene />} />
           <Route path="/site" element={<Site />} />

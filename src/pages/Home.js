@@ -32,7 +32,8 @@ export default function Home(props) {
         <p>Currently working on...</p>
         <ul>
           <li>Episodes page</li>
-          <li>Home page</li>
+          <li>Songs page</li>
+          <li>Intro Voiceover</li>
         </ul>
 
 

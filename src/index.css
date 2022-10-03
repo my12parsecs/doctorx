@@ -222,8 +222,8 @@ main{
   object-position: 50% 59%;
 }
 .section-title{
-  width: 310px;
-  height: 100px;
+  width: 570px;
+  height: 80px;
   position: absolute;
   top: 0;
   right: 0;
@@ -236,6 +236,25 @@ main{
   transform: scale(0.60, 1);
   text-align: center;
 }
+
+
+
+
+.voice-over{
+  margin-bottom: 50px;
+}
+.voice-over > h3{
+  font-size: 19px;
+  display: flex;
+  margin: 30px auto 0px auto;
+  width: 60vw;
+}
+.voice-over > p{
+  display: flex;
+  margin: 8px auto 0px auto;
+  width: 60vw;
+}
+
 
 
 
@@ -366,7 +385,29 @@ main{
   justify-content: space-between;
 }
 
-
+.lyrics{
+  min-height: 48vw;
+  white-space: pre-wrap;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.lyrics > h2{
+  text-align: center;
+  margin-top: 70px;
+}
+.lyrics-list{
+  display: flex;
+  margin: 0 auto;
+  width: 425px;
+  font-size: 25px;
+}
+.lyrics > ol{
+}
+.lyrics-one{
+  margin-bottom: 40px;
+}
+.lyrics-two{
+  margin-bottom: 50px;
+}
 
 
 
