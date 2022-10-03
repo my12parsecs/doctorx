@@ -23,12 +23,16 @@ export default function Home(props) {
       </div>
       <div className="home-content-container">
         <p>{t("welcome")}</p>
-        <p>当サイトは制作の途中です。今後少しづつ形になっていきますのでお待ちください。</p>
+
+        <h2>メロンです、未完成のサイトです。</h2>
+        <p>このサイトはドラマ、ドクターXの非公式ファンサイトです。ファンサイトがなかったので自分で作ろうと思って勉強がてらやってます。</p>
+        <p>当サイトは制作の途中です(が公開しちゃいました)。今後少しづつ形になっていきますのでお待ちください。</p>
         <h4>今後追加するもの</h4>
         <p>人物、エピソード、トリビア、曲、ロケ地、名シーン、術式、矛盾点などページ追加</p>
-        <p>多言語対応</p>
-        <p>フォーム設置</p>
-        <p>This website is still in the process of being made. The site would be updated daily. Stay tuned!</p>
+
+        <h2>For English Users</h2>
+        <p>This is the unofficial fan-made site of the Japanese TV series, Doctor-X. It's on Netflix by the way.</p>
+        <p>This website is still in the process of being made, and would be updated daily. Stay tuned!</p>
         <p>Currently working on...</p>
         <ul>
           <li>Episodes page</li>

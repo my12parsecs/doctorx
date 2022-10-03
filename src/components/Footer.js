@@ -33,6 +33,7 @@ export default function Footer() {
           <Link to="/episode" className="footer-page-link">{t("episodes")}</Link>
           <Link to="/character" className="footer-page-link">{t("characters")}</Link>
           <Link to="/song" className="footer-page-link">{t("songs")}</Link>
+          <Link to="/lyrics" className="footer-page-link">{t("lyrics")}</Link>
         </div>
       </div>
 
