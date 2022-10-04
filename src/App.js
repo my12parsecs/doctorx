@@ -16,7 +16,9 @@ import EpisodeAll from "./pages/EpisodeAll";
 import Season from "./pages/Season"
 import Ope from './pages/Ope';
 
-import Character from "./pages/Character";
+import SharedCharacterLayout from "./pages/SharedCharacterLayout"
+import Character from "./pages/CharacterAll";
+
 import Trivia from "./pages/Trivia";
 
 import Song from "./pages/Song";
@@ -55,7 +57,10 @@ export default function App() {
             <Route path='/episode/ope' element={<Ope />} />
           </Route>
 
-          <Route path="/character" element={<Character />} />
+          <Route path='/character' element={<SharedCharacterLayout />}>
+            <Route index element={<Character />} />
+          </Route>
+
           <Route path="/trivia" element={<Trivia />} />
 
           <Route path="/song" element={<Song />} />

@@ -1,6 +1,6 @@
 import { Link, useParams } from "react-router-dom";
 
-import episodeData from "../data";
+import episodeData from "../episodeData";
 import { Form } from "react-router-dom";
 
 export default function Season() {

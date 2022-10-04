@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import leaning from "../images/leaning.jpg";
 
-import episodeData from "../data";
+import episodeData from "../episodeData";
 import { t } from "i18next";
 
 export default function Episodes() {
