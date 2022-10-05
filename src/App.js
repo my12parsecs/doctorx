@@ -18,6 +18,7 @@ import Ope from './pages/Ope';
 
 import SharedCharacterLayout from "./pages/SharedCharacterLayout"
 import Character from "./pages/CharacterAll";
+import CharacterEach from './pages/CharacterEach';
 
 import Trivia from "./pages/Trivia";
 
@@ -59,6 +60,7 @@ export default function App() {
 
           <Route path='/character' element={<SharedCharacterLayout />}>
             <Route index element={<Character />} />
+            <Route path='/character/:characterId' element={<CharacterEach />} />
           </Route>
 
           <Route path="/trivia" element={<Trivia />} />

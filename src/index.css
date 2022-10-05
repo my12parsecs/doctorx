@@ -345,16 +345,46 @@ main{
   flex-direction: column;
   align-items: center;
 }
+.character-link{
+  text-decoration: none;
+  color: black;
+}
 .character-image{
   width: 140px;
   height: 170px;
 }
 .character-name{
   margin: 0 auto;
-
+  font-size: 17px;
 }
 .character-job{
   margin: 0 auto;
+  font-size: 14px;
+  color: grey;
+}
+
+.character-each-title{
+  text-align: center;
+  margin-top: 40px;
+}
+.character-each-split{
+  display: flex;
+  margin: 0 auto;
+  width: 70vw;
+  justify-content: space-around;
+}
+.character-each-photo{
+  width: 200px;
+  height: 200px;
+}
+.character-each-quote{
+  font-size: 20px;
+}
+.character-each-info{}
+.character-each-list{
+  margin: 50px auto;
+  width: 80vw;
+  list-style: none;
 }
 
 

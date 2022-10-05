@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import characterData from "../characterData";
 
  export default function Character(){
@@ -13,9 +14,11 @@ import characterData from "../characterData";
               return (
                 <article key={person.id}>
                   <div className="character-container">
+                    <Link to={`/character/${person.id}`} className="character-link">
                     <img className="character-image"></img>
-                    <h3 className="character-name">{person.name}</h3>
-                    <h4 className="character-job">{person.jobMain}</h4>
+                      <h3 className="character-name">{person.name}</h3>
+                      <h4 className="character-job">{person.jobMain}</h4>
+                    </Link>
                   </div>
                   {/* <Link to={`/products/${product.id}`}>more info</Link> */}
                 </article>
