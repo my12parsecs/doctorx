@@ -11,7 +11,7 @@ const characterData = [
             "フリーランス外科医"
         ],
         quote: "バイトじゃなくてフリーランス",
-        info: "ほにゃらら",
+        info: "",
         photo: "",
         birthday: "1976年1月7日",
         age: "",
