@@ -58,8 +58,10 @@ export default function Song() {
           <div className="other-song">
             <div className="other-song-flex">
               <h3>唯一無二</h3>
-              <Link to="/lyrics">{(t("lyrics"))}</Link>
-              <h3>東帝大学病院応援歌</h3>
+              <div className="other-song-right">
+                <Link to="/lyrics" className="link-lyrics">{(t("lyrics"))}</Link>
+                <h3>東帝大学病院応援歌</h3>
+              </div>
             </div>
             <p>
               東帝大学校歌Lorem Ipsum is simply dummy text of the printing and

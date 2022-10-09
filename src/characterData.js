@@ -20,6 +20,8 @@ const characterData = [
             "東京都目黒区旗の川6-4-4"
         ],
         born: "広島県　呉市",
+        license: "2001年4月",
+        licenseNumber: "0982586",
         history: [],
         traits: [
             "特技：手術",

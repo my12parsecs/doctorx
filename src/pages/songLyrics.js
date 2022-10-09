@@ -10,7 +10,7 @@ export default function songLyrics() {
       <div className="lyrics-list">
       <ol style={{ listStyleType: "cjk-ideographic" }}>
         <li className="lyrics-one">
-            {`唯一無二並ぶ山はなし\n風は後追いしかせぬ 我が道を行け\n東帝　東帝　東帝　東帝\n誇り高き我が母校　唯一無二`}
+            {`唯一無二　並ぶ山はなし\n風は後追いしかせぬ　我が道を行け\n東帝　東帝　東帝　東帝\n誇り高き我が母校　唯一無二`}
         </li>
         <li className="lyrics-two">
             {`唯一無二　遮るものなし\n全ては我ら思うまま 我が道を行け\n東帝　東帝　東帝　東帝\n仰ぎ見ゆる我が母校　唯一無二`}

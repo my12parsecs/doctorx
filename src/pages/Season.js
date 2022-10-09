@@ -15,10 +15,11 @@ export default function Season() {
           <article key={ope.id} className="s-episode">
             <h5 className="s-episode-name">{ope.name}</h5>
             <div className="s-episode-split">
-              <img className="s-episode-photo"></img>
+              <Link to={`/episode/${season}/${ope.id}`}>
+                <img src={ope.photo} className="s-episode-photo"></img>
+              </Link>
               <p className="s-episode-info">{ope.info}</p>
             </div>
-            {/* <Link to={`/products/${product.id}`}>more info</Link> */}
           </article>
         );
       })}

@@ -322,13 +322,76 @@ main{
   margin-right: 10vw;
 }
 .s-episode-photo{
-  width: 25vw;
+  width: 26vw;
   margin-right: 10px;
 }
+.s-episode-photo:hover{
+  opacity: 0.7;
+}
 .s-episode-info{
-  width: 35vw;
+  width: 27vw;
   margin-left: 10px;
 }
+
+
+.ope-container{
+  margin-top: 40px;
+  margin-bottom: 70px;
+}
+.ope-title{
+  text-align: center;
+  margin-bottom: 0;
+}
+.ope-title-info{
+  text-align: center;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+.ope-split{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+.ope-photo{
+  width: 35vw;
+  margin-right: 30px;
+}
+.ope-quote{}
+.ope-info{
+  width: 30vw;
+}
+.ope-section{
+  width: 70vw;
+  margin: 0 auto;
+}
+.ope-section-title{
+}
+.ope-character{
+  display: flex;
+  justify-content: space-evenly;
+}
+.ope-character-container{
+  width: 15vw;
+}
+.ope-character-container > h3{
+  margin: 0;
+}
+.ope-character-container > img{
+  border: 2px solid rgb(160, 160, 160);
+  display: flex;
+  margin: 0 auto;
+  width: 13vw;
+}
+.ope-character-container > h4{
+  margin: 0;
+}
+.ope-character-container > p{
+  margin: 0;
+}
+
+
+
 
 
 
@@ -437,6 +500,15 @@ main{
 .other-song-flex{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.other-song-right{
+  display: flex;
+  align-items: center;
+}
+.link-lyrics{
+  color: black;
+  margin-right: 20px;
 }
 
 .lyrics{
@@ -451,7 +523,7 @@ main{
 .lyrics-list{
   display: flex;
   margin: 0 auto;
-  width: 425px;
+  width: 440px;
   font-size: 25px;
 }
 .lyrics > ol{

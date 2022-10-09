@@ -55,7 +55,7 @@ export default function App() {
           <Route path="/episode" element={<SharedEpisodeLayout />}>
             <Route index element={<EpisodeAll />} />
             <Route path="/episode/:season" element={<Season />} />
-            <Route path='/episode/ope' element={<Ope />} />
+            <Route path='/episode/:season/:opeId' element={<Ope />} />
           </Route>
 
           <Route path='/character' element={<SharedCharacterLayout />}>
