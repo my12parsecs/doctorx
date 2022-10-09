@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import leaning from "../images/leaning.jpg";
 
 import episodeData from "../episodeData";
 import { t } from "i18next";
@@ -12,7 +11,7 @@ export default function Episodes() {
         <div className="episode-split">
           <div className="episode-left">
             <Link to={`/episode/season1`}>
-              <img src={leaning} className="episode-image" />
+              <img src="https://www.tv-asahi.co.jp/doctor-x_01/story/02/img/pic_01.jpg" className="episode-image" />
             </Link>
             <h4>{t("season")}1</h4>
             <p>
@@ -41,7 +40,7 @@ export default function Episodes() {
         <div className="episode-split">
           <div className="episode-left">
             <Link to={`/episode/season2`}>
-              <img src={leaning} className="episode-image" />
+              <img src="https://www.tv-asahi.co.jp/doctor-x_02/photo/0004/img/photo06.jpg" className="episode-image" />
             </Link>
             <h4>{t("season")}2</h4>
             <p>
@@ -70,7 +69,7 @@ export default function Episodes() {
         <div className="episode-split">
           <div className="episode-left">
             <Link to={`/episode/season3`}>
-              <img src={leaning} className="episode-image" />
+              <img src="https://www.tv-asahi.co.jp/doctor-x_03/photo/0002/img/photo03.jpg" className="episode-image" />
             </Link>
             <h4>{t("season")}3</h4>
             <p>
@@ -101,7 +100,7 @@ export default function Episodes() {
         <div className="episode-split">
           <div className="episode-left">
             <Link to={`/episode/season4`}>
-              <img src={leaning} className="episode-image" />
+              <img src="https://www.tv-asahi.co.jp/doctor-x_04/story/0001/img/01.jpg" className="episode-image" />
             </Link>
             <h4>{t("season")}4</h4>
             <p>
@@ -132,7 +131,7 @@ export default function Episodes() {
         <div className="episode-split">
           <div className="episode-left">
             <Link to={`/episode/season5`}>
-              <img src={leaning} className="episode-image" />
+              <img src="https://www.tv-asahi.co.jp/doctor-x_05/story/0005/img/02.jpg" className="episode-image" />
             </Link>
             <h4>{t("season")}5</h4>
             <p>
@@ -162,7 +161,7 @@ export default function Episodes() {
         <div className="episode-split">
           <div className="episode-left">
             <Link to={`/episode/season6`}>
-              <img src={leaning} className="episode-image" />
+              <img src="https://www.tv-asahi.co.jp/doctor-x_06/story/0003/img/03.jpg" className="episode-image" />
             </Link>
             <h4>{t("season")}6</h4>
             <p>
