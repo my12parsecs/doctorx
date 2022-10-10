@@ -315,6 +315,9 @@ main{
   margin-bottom: 5px;
   margin-left: 19vw;
 }
+.s-episode-subname{
+  font-size: 14px;
+}
 .s-episode-split{
   display: flex;
   justify-content: center;

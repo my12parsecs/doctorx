@@ -13,7 +13,9 @@ export default function Season() {
       {oneSeason.map((ope) => {
         return (
           <article key={ope.id} className="s-episode">
-            <h5 className="s-episode-name">{ope.name}</h5>
+            <h5 className="s-episode-name">{ope.name}
+              <span className="s-episode-subname">　放送時間 {ope.time}分・放送日 {ope.date}</span>
+            </h5>
             <div className="s-episode-split">
               <Link to={`/episode/${season}/${ope.id}`}>
                 <img src={ope.photo} className="s-episode-photo"></img>
