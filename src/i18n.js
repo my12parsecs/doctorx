@@ -76,7 +76,8 @@ const translationsJa = {
     outro: "主題歌",
     otherSongs: "その他",
     lyrics: "歌詞",
-    voiceOver: "冒頭ナレーション"
+    voiceOver: "冒頭ナレーション",
+    location: "ロケ地"
 }
 const translationsEn = {
     welcome: "Welcome!",
@@ -152,7 +153,8 @@ const translationsEn = {
     outro: "Outro",
     otherSongs: "Other Songs",
     lyrics: "Lyrics",
-    voiceOver: "Intro Voiceover"
+    voiceOver: "Intro Voiceover",
+    location: "Film Locations"
 }
 // en: {
 //     translation: {
