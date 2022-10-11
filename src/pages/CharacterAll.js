@@ -15,7 +15,7 @@ import characterData from "../characterData";
                 <article key={person.id}>
                   <div className="character-container">
                     <Link to={`/character/${person.id}`} className="character-link">
-                    <img className="character-image"></img>
+                    <img src={person.photo} className="character-image" />
                       <h3 className="character-name">{person.name}</h3>
                       <h4 className="character-job">{person.jobMain}</h4>
                     </Link>

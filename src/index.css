@@ -403,7 +403,7 @@ main{
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   width: 70vw;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 .character-container{
   margin: 30px auto;
@@ -416,8 +416,14 @@ main{
   color: black;
 }
 .character-image{
-  width: 140px;
-  height: 170px;
+  width: 15vw;
+  height: 20vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+  border: 1px solid black;
+}
+.character-image:hover{
+  opacity: 0.8;
 }
 .character-name{
   margin: 0 auto;
@@ -425,7 +431,7 @@ main{
 }
 .character-job{
   margin: 0 auto;
-  font-size: 14px;
+  font-size: 1.5vw;
   color: grey;
 }
 
@@ -441,7 +447,6 @@ main{
 }
 .character-each-photo{
   width: 200px;
-  height: 200px;
 }
 .character-each-quote{
   font-size: 20px;

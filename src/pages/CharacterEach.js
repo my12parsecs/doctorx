@@ -12,7 +12,7 @@ export default function CharacterEach() {
     <article>
       <h2 className="character-each-title">{oneCharacter.name}</h2>
       <div className="character-each-split">
-        <img className="character-each-photo"></img>
+        <img src={oneCharacter.photo} className="character-each-photo"></img>
         <div>
           <h3 className="character-each-quote">「{oneCharacter.quote}」</h3>
           <p className="character-each-info">{oneCharacter.info}</p>
