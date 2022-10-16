@@ -2,6 +2,7 @@ import { Link, useParams } from "react-router-dom";
 
 import episodeData from "../episodeData";
 import { Form } from "react-router-dom";
+import { t } from "i18next";
 
 export default function Season() {
   const { season } = useParams();
@@ -14,7 +15,7 @@ export default function Season() {
         return (
           <article key={ope.id} className="s-episode">
             <h5 className="s-episode-name">{ope.name}
-              <span className="s-episode-subname">　放送時間 {ope.time}分・放送日 {ope.date}</span>
+              <span className="s-episode-subname">　{t("airTime")} {ope.time}{t("minutes")}・{t("airDate")} {ope.date}</span>
             </h5>
             <div className="s-episode-split">
               <Link to={`/episode/${season}/${ope.id}`}>

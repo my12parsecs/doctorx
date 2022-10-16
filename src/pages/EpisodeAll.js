@@ -22,15 +22,14 @@ export default function Episodes() {
             </p>
           </div>
           <div className="episode-right">
-            <h4>OPE.1</h4>
-            <h4>OPE.2</h4>
-            <h4>OPE.3</h4>
-            <h4>OPE.4</h4>
-            <h4>OPE.5</h4>
-            <h4>OPE.6</h4>
-            <h4>OPE.7</h4>
-            <h4>OPE.8</h4>
-            <h4>OPE.9</h4>
+          <Link to={`/episode/season1/1.1`} className="episode-link">OPE.1</Link>
+          <Link to={`/episode/season1/1.2`} className="episode-link">OPE.2</Link>
+          <Link to={`/episode/season1/1.3`} className="episode-link">OPE.3</Link>
+          <Link to={`/episode/season1/1.4`} className="episode-link">OPE.4</Link>
+          <Link to={`/episode/season1/1.5`} className="episode-link">OPE.5</Link>
+          <Link to={`/episode/season1/1.6`} className="episode-link">OPE.6</Link>
+          <Link to={`/episode/season1/1.7`} className="episode-link">OPE.7</Link>
+          <Link to={`/episode/season1/1.8`} className="episode-link">OPE.8</Link>
           </div>
         </div>
       </section>
@@ -51,15 +50,15 @@ export default function Episodes() {
             </p>
           </div>
           <div className="episode-right">
-            <h4>OPE.1</h4>
-            <h4>OPE.2</h4>
-            <h4>OPE.3</h4>
-            <h4>OPE.4</h4>
-            <h4>OPE.5</h4>
-            <h4>OPE.6</h4>
-            <h4>OPE.7</h4>
-            <h4>OPE.8</h4>
-            <h4>OPE.9</h4>
+            <Link to={`/episode/season2/2.1`} className="episode-link">OPE.1</Link>
+            <Link to={`/episode/season2/2.2`} className="episode-link">OPE.2</Link>
+            <Link to={`/episode/season2/2.3`} className="episode-link">OPE.3</Link>
+            <Link to={`/episode/season2/2.4`} className="episode-link">OPE.4</Link>
+            <Link to={`/episode/season2/2.5`} className="episode-link">OPE.5</Link>
+            <Link to={`/episode/season2/2.6`} className="episode-link">OPE.6</Link>
+            <Link to={`/episode/season2/2.7`} className="episode-link">OPE.7</Link>
+            <Link to={`/episode/season2/2.8`} className="episode-link">OPE.8</Link>
+            <Link to={`/episode/season2/2.9`} className="episode-link">OPE.9</Link>
           </div>
         </div>
       </section>
@@ -80,17 +79,17 @@ export default function Episodes() {
             </p>
           </div>
           <div className="episode-right">
-            <h4>OPE.1</h4>
-            <h4>OPE.2</h4>
-            <h4>OPE.3</h4>
-            <h4>OPE.4</h4>
-            <h4>OPE.5</h4>
-            <h4>OPE.6</h4>
-            <h4>OPE.7</h4>
-            <h4>OPE.8</h4>
-            <h4>OPE.9</h4>
-            <h4>OPE.10</h4>
-            <h4>OPE.11</h4>
+            <Link to={`/episode/season3/3.1`} className="episode-link">OPE.1</Link>
+            <Link to={`/episode/season3/3.2`} className="episode-link">OPE.2</Link>
+            <Link to={`/episode/season3/3.3`} className="episode-link">OPE.3</Link>
+            <Link to={`/episode/season3/3.4`} className="episode-link">OPE.4</Link>
+            <Link to={`/episode/season3/3.5`} className="episode-link">OPE.5</Link>
+            <Link to={`/episode/season3/3.6`} className="episode-link">OPE.6</Link>
+            <Link to={`/episode/season3/3.7`} className="episode-link">OPE.7</Link>
+            <Link to={`/episode/season3/3.8`} className="episode-link">OPE.8</Link>
+            <Link to={`/episode/season3/3.9`} className="episode-link">OPE.9</Link>
+            <Link to={`/episode/season3/3.10`} className="episode-link">OPE.10</Link>
+            <Link to={`/episode/season3/3.11`} className="episode-link">OPE.11</Link>
           </div>
         </div>
       </section>
@@ -111,17 +110,17 @@ export default function Episodes() {
             </p>
           </div>
           <div className="episode-right">
-            <h4>OPE.1</h4>
-            <h4>OPE.2</h4>
-            <h4>OPE.3</h4>
-            <h4>OPE.4</h4>
-            <h4>OPE.5</h4>
-            <h4>OPE.6</h4>
-            <h4>OPE.7</h4>
-            <h4>OPE.8</h4>
-            <h4>OPE.9</h4>
-            <h4>OPE.10</h4>
-            <h4>OPE.11</h4>
+            <Link to={`/episode/season4/4.1`} className="episode-link">OPE.1</Link>
+            <Link to={`/episode/season4/4.2`} className="episode-link">OPE.2</Link>
+            <Link to={`/episode/season4/4.3`} className="episode-link">OPE.3</Link>
+            <Link to={`/episode/season4/4.4`} className="episode-link">OPE.4</Link>
+            <Link to={`/episode/season4/4.5`} className="episode-link">OPE.5</Link>
+            <Link to={`/episode/season4/4.6`} className="episode-link">OPE.6</Link>
+            <Link to={`/episode/season4/4.7`} className="episode-link">OPE.7</Link>
+            <Link to={`/episode/season4/4.8`} className="episode-link">OPE.8</Link>
+            <Link to={`/episode/season4/4.9`} className="episode-link">OPE.9</Link>
+            <Link to={`/episode/season4/4.10`} className="episode-link">OPE.10</Link>
+            <Link to={`/episode/season4/4.11`} className="episode-link">OPE.11</Link>
           </div>
         </div>
       </section>
@@ -142,16 +141,16 @@ export default function Episodes() {
             </p>
           </div>
           <div className="episode-right">
-            <h4>OPE.1</h4>
-            <h4>OPE.2</h4>
-            <h4>OPE.3</h4>
-            <h4>OPE.4</h4>
-            <h4>OPE.5</h4>
-            <h4>OPE.6</h4>
-            <h4>OPE.7</h4>
-            <h4>OPE.8</h4>
-            <h4>OPE.9</h4>
-            <h4>OPE.10</h4>
+            <Link to={`/episode/season5/5.1`} className="episode-link">OPE.1</Link>
+            <Link to={`/episode/season5/5.2`} className="episode-link">OPE.2</Link>
+            <Link to={`/episode/season5/5.3`} className="episode-link">OPE.3</Link>
+            <Link to={`/episode/season5/5.4`} className="episode-link">OPE.4</Link>
+            <Link to={`/episode/season5/5.5`} className="episode-link">OPE.5</Link>
+            <Link to={`/episode/season5/5.6`} className="episode-link">OPE.6</Link>
+            <Link to={`/episode/season5/5.7`} className="episode-link">OPE.7</Link>
+            <Link to={`/episode/season5/5.8`} className="episode-link">OPE.8</Link>
+            <Link to={`/episode/season5/5.9`} className="episode-link">OPE.9</Link>
+            <Link to={`/episode/season5/5.10`} className="episode-link">OPE.10</Link>
           </div>
         </div>
       </section>
@@ -172,16 +171,16 @@ export default function Episodes() {
             </p>
           </div>
           <div className="episode-right">
-           <h4>OPE.1</h4>
-            <h4>OPE.2</h4>
-            <h4>OPE.3</h4>
-            <h4>OPE.4</h4>
-            <h4>OPE.5</h4>
-            <h4>OPE.6</h4>
-            <h4>OPE.7</h4>
-            <h4>OPE.8</h4>
-            <h4>OPE.9</h4>
-            <h4>OPE.10</h4>
+            <Link to={`/episode/season6/6.1`} className="episode-link">OPE.1</Link>
+            <Link to={`/episode/season6/6.2`} className="episode-link">OPE.2</Link>
+            <Link to={`/episode/season6/6.3`} className="episode-link">OPE.3</Link>
+            <Link to={`/episode/season6/6.4`} className="episode-link">OPE.4</Link>
+            <Link to={`/episode/season6/6.5`} className="episode-link">OPE.5</Link>
+            <Link to={`/episode/season6/6.6`} className="episode-link">OPE.6</Link>
+            <Link to={`/episode/season6/6.7`} className="episode-link">OPE.7</Link>
+            <Link to={`/episode/season6/6.8`} className="episode-link">OPE.8</Link>
+            <Link to={`/episode/season6/6.9`} className="episode-link">OPE.9</Link>
+            <Link to={`/episode/season6/6.10`} className="episode-link">OPE.10</Link>
           </div>
         </div>
       </section>

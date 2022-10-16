@@ -15,7 +15,7 @@ export default function Ope(){
     return(
         <div className="ope-container">
             <h1 className="ope-title">{t("season")}{season}・{oneOpe.name}</h1>
-            <h5 className="ope-title-info">放送時間 {oneOpe.time}分・放送日 {oneOpe.date}</h5>
+            <h5 className="ope-title-info">{t("airTime")} {oneOpe.time}{t("minutes")}・{t("airDate")} {oneOpe.date}</h5>
 
             <div className="ope-split">
                 <img src={oneOpe.photo} className="ope-photo" />
@@ -28,7 +28,7 @@ export default function Ope(){
             <div className="ope-detail">
 
                 <div className="ope-section">
-                    <h2 className="ope-section-title">登場人物</h2>
+                    <h2 className="ope-section-title">{t("characters")}</h2>
                     <div className="ope-character">
                         {oneOpe.character.map((each)=>{
                             return(
@@ -44,7 +44,7 @@ export default function Ope(){
                 </div>
 
                 <div className="ope-section">
-                    <h2 className="ope-section-title">ストーリー</h2>
+                    <h2 className="ope-section-title">{t("story")}</h2>
                     <div className="ope-story">{oneOpe.story}</div>
                 </div>
                 

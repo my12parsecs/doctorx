@@ -174,6 +174,7 @@ main{
   left: 0.5%;
   font-size: 4.35vw;
   font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
   color: linear-gradient(#e9ce24, #d6a40f);
   background: -webkit-linear-gradient(#fadc1f, #9c7e23);
   -webkit-background-clip: text;
@@ -271,14 +272,15 @@ main{
 }
 .episode-split{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   margin: 20px auto;
 }
 .episode-left{
-  width: 35vw;
+  width: 50vw;
+  margin-right: 20px;
 }
 .episode-image{
-  width: 45vw;
+  width: 50vw;
   margin-right: 0px;
   object-fit: cover;
   object-position: 50% 20%;
@@ -295,11 +297,17 @@ main{
 }
 .episode-right{
   width: 5vw;
+  display: flex;
+  flex-direction: column;
 }
-.episode-right h4{
-  font-size: 16px;
+.episode-link{
+  font-size: 20px;
   text-align: left;
-  margin: 8px 0;
+  margin: 2px 0;
+  color: black;
+}
+.episode-link:hover{
+  color: grey;
 }
 
 
