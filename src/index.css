@@ -566,6 +566,7 @@ main{
 .hospital{
   text-align: center;
   font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
   font-weight: 600;
   margin-top: 40px;
 }
