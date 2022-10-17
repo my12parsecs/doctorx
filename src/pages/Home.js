@@ -41,6 +41,9 @@ export default function Home(props) {
         </ul>
 
 
+        <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSc_6fCI-RP5f24_AwxEjxnLir3acWJut2Jg57iS4wzFmav8Cw/viewform?embedded=true" width="640" height="600" frameborder="0" marginheight="0" marginwidth="0" className="home-form">読み込んでいます…</iframe>
+
+
         <div className="home-content">
           <h3 className="home-content-header">Trivia</h3>
           <p className="home-content-text">
