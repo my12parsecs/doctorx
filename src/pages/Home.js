@@ -18,7 +18,6 @@ export default function Home(props) {
         <h1 className="cc">Doctor-X</h1> */}
         <div className="banner-subtitle">
           <h2 className="subtitle">外科医 •大門未知子</h2>
-          <span className="fansite">Fansite</span>
         </div>
       </div>
       <div className="home-content-container">
