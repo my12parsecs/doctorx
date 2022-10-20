@@ -27,7 +27,7 @@ export default function Home(props) {
         <p>このサイトはドラマ、ドクターXの非公式ファンサイトです。ファンサイトがなかったので自分で作ろうと思って勉強がてらやってます。</p>
         <p>当サイトは制作の途中です(が公開しちゃいました)。今後少しづつ形になっていきますのでお待ちください。</p>
         <h4>今後追加するもの</h4>
-        <p>人物、エピソード、トリビア、曲、ロケ地、名シーン、術式、矛盾点などページ追加</p>
+        <p>トリビア、ロケ地、名シーン、術式、矛盾点などページ追加</p>
 
         <h2>For English Users</h2>
         <p>This is the unofficial fan-made site of the Japanese TV series, Doctor-X. It's on Netflix by the way.</p>
