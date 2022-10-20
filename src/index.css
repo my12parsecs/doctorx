@@ -146,7 +146,7 @@ main{
 }
 .banner-title{
   position: absolute;
-  bottom: -5%;
+  bottom: -23%;
   left: -12%;
   color: rgb(255, 255, 255);
   font-family: 'Old Standard TT', serif;
@@ -170,7 +170,7 @@ main{
 }
 .subtitle{
   position: absolute;
-  bottom: 7%;
+  bottom: -8%;
   left: 0.5%;
   font-size: 4.35vw;
   font-style: italic;
