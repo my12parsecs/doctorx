@@ -559,6 +559,51 @@ main{
 
 
 
+
+.location{
+  display: flex;
+  margin: 50px auto;
+}
+.location-title{
+  display: flex;
+  align-items: baseline;
+}
+.location-season{
+  font-size: 15px;
+  margin-right: 10px;
+}
+.location-name{
+  font-size: 20px;
+}
+.location-info{
+  display: flex;
+}
+.location-image{
+  width: 200px;
+  height: 100px;
+  margin-right: 10px;
+}
+.location-detail{
+}
+.location-detail1{
+  margin: 0 auto;
+}
+.location-detail2{
+  margin: 0 auto;
+}
+.location-detail3{
+  margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
 .footer{
   background-color: rgb(97, 15, 129);
   color: white;
