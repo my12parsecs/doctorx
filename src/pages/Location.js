@@ -1,3 +1,5 @@
+import locationData from "../locationData"
+
 export default function Location(){
 
     // これからやること => episodeやcharacterのようにlocationDataからmapする
@@ -10,7 +12,7 @@ export default function Location(){
                     <h2 className="location-name">神原名医紹介所</h2>
                 </div>
                 <div className="location-info">
-                    <img className="location-image"></img>
+                    <img src={locationData[0].image} className="location-image" />
                     <div className="location-detail">
                         <h4 className="location-detail1">コスガ</h4>
                         <h4 className="location-detail2">日本東京都江東区佐賀1丁目</h4>

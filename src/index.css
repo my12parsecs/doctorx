@@ -579,9 +579,10 @@ main{
   display: flex;
 }
 .location-image{
-  width: 200px;
-  height: 100px;
+  width: 40vw;
+  height: 20vw;
   margin-right: 10px;
+  object-fit: contain;
 }
 .location-detail{
 }
