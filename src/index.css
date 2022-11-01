@@ -559,9 +559,10 @@ main{
 
 
 
-
 .location{
-  display: flex;
+}
+.location-article{
+  width: 640px;
   margin: 50px auto;
 }
 .location-title{
@@ -577,6 +578,7 @@ main{
 }
 .location-info{
   display: flex;
+  justify-content: center;
 }
 .location-image{
   width: 40vw;

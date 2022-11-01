@@ -8,7 +8,7 @@ const locationData = [
         image: "https://pbs.twimg.com/media/DKGpkIrVAAUi_BY.jpg",
         location: "コスガ",
         address: "日本東京都江東区佐賀1丁目",
-        explanation: ""
+        explanation: "hihi"
     },
     {
         id: "1",
