@@ -562,7 +562,7 @@ main{
 .location{
 }
 .location-article{
-  width: 640px;
+  width: 56vw;
   margin: 50px auto;
 }
 .location-title{
@@ -581,12 +581,13 @@ main{
   justify-content: center;
 }
 .location-image{
-  width: 40vw;
+  width: 35vw;
   height: 20vw;
-  margin-right: 10px;
+  margin-right: 1vw;
   object-fit: contain;
 }
 .location-detail{
+  width: 20vw;
 }
 .location-detail1{
   margin: 0 auto;

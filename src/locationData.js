@@ -11,11 +11,20 @@ const locationData = [
         explanation: "hihi"
     },
     {
-        id: "1",
-        season: "",
-        scene: "",
+        id: "2",
+        season: "1",
+        scene: "帝都医科大学付属第三病院",
         image: "",
-        location: "",
+        location: "芝浦工業大学豊洲キャンパス",
+        address: "",
+        explanation: ""
+    },
+    {
+        id: "3",
+        season: "1",
+        scene: "帝都医科大学付属第三病院ロビー",
+        image: "",
+        location: "川崎市立川崎病院",
         address: "",
         explanation: ""
     }
