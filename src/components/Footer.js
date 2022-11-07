@@ -1,9 +1,10 @@
 import { t } from "i18next";
 import { Link } from "react-router-dom";
-import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faArrowUp } from '@fortawesome/free-solid-svg-icons'
 
 export default function Footer() {
   return (
@@ -23,12 +24,20 @@ export default function Footer() {
               {t("officialSite")}
             </a>
           </div>
+          <div className="footer-icon">
           <a
             href="https://twitter.com/DoctorXFansite"
             target="_blank"
             rel="noopener noreferrer"
             className="footer-twitter"
           ><FontAwesomeIcon icon={faTwitter} size="lg" /></a>
+          <a
+            href="https://github.com/my12parsecs/doctorx"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="footer-twitter"
+          ><FontAwesomeIcon icon={faGithub} size="lg" /></a>
+          </div>
         </div>
         <div className="footer-page">
           <Link to="/voiceover" className="footer-page-link">{t("voiceOver")}</Link>
@@ -49,6 +58,9 @@ export default function Footer() {
           rel="noopener noreferrer"
         >
           {t("contact")}
+        </a>
+        <a href="#">
+          <FontAwesomeIcon icon={faArrowUp} />
         </a>
       </div>
     </footer>
