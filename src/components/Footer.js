@@ -1,5 +1,9 @@
 import { t } from "i18next";
 import { Link } from "react-router-dom";
+import React from "react";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faTwitter } from '@fortawesome/free-brands-svg-icons'
 
 export default function Footer() {
   return (
@@ -24,9 +28,7 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
             className="footer-twitter"
-          >
-            @DoctorXFansite
-          </a>
+          ><FontAwesomeIcon icon={faTwitter} size="lg" /></a>
         </div>
         <div className="footer-page">
           <Link to="/voiceover" className="footer-page-link">{t("voiceOver")}</Link>
