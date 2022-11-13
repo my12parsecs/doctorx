@@ -582,9 +582,9 @@ main{
 }
 .location-image{
   width: 35vw;
-  height: 20vw;
+  height: 25vw;
   margin-right: 1vw;
-  object-fit: contain;
+  object-fit: cover;
 }
 .location-detail{
   width: 20vw;
