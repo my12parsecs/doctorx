@@ -288,6 +288,7 @@ main{
   margin-right: 0px;
   object-fit: cover;
   object-position: 50% 20%;
+  border-radius: 15px;
 }
 .episode-image:hover{
   opacity: 0.7;
@@ -339,6 +340,7 @@ main{
 .s-episode-photo{
   width: 26vw;
   margin-right: 10px;
+  border-radius: 10px;
 }
 .s-episode-photo:hover{
   opacity: 0.7;
@@ -371,6 +373,7 @@ main{
 .ope-photo{
   width: 35vw;
   margin-right: 30px;
+  border-radius: 15px;
 }
 .ope-quote{}
 .ope-info{
@@ -393,9 +396,10 @@ main{
   margin: 0;
 }
 .ope-character-container > img{
-  border: 2px solid rgb(160, 160, 160);
+  border: 1px solid rgb(34, 34, 34);
+  border-radius: 10px;
   display: flex;
-  margin: 0 auto;
+  margin: 10px auto;
   width: 13vw;
 }
 .ope-character-container > h4{
@@ -433,6 +437,7 @@ main{
   object-fit: cover;
   object-position: 50% 50%;
   border: 1px solid black;
+  border-radius: 10px;
 }
 .character-image:hover{
   opacity: 0.8;
@@ -459,6 +464,7 @@ main{
 }
 .character-each-photo{
   width: 200px;
+  border-radius: 15px;
 }
 .character-each-quote{
   font-size: 20px;
@@ -585,6 +591,7 @@ main{
   height: 25vw;
   margin-right: 1vw;
   object-fit: cover;
+  border-radius: 15px;
 }
 .location-detail{
   width: 20vw;
