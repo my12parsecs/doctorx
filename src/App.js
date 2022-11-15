@@ -47,6 +47,7 @@ export default function App() {
     console.log(lang);
   }
 
+
   return (
       <Routes>
         <Route path="/" element={<SharedLayout handleClick={langy} lang={lang}/>}>

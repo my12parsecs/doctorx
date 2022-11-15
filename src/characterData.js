@@ -35,6 +35,7 @@ const characterData = [
         season: "all",
         jobMain: "神原名医紹介所・所長",
         job: "神原名医紹介所・所長",
+        quote: "メロンです、請求書です",
         info: "ほにゃらら",
         photo: "https://www.tv-asahi.co.jp/doctor-x_04/cast/img/cast10.jpg",
     },
@@ -65,7 +66,7 @@ const characterData = [
             "西京大学病院・病院長",
             "東帝大学病院・病院長"
         ],
-        quote: "",
+        quote: "グーテンモルゲン",
         info: "(本名：十一郎)",
         photo: "https://www.tv-asahi.co.jp/doctor-x_04/cast/img/cast13.jpg",
         birthday: "1951年11月11日",
@@ -86,7 +87,7 @@ const characterData = [
            "東帝大学病院・北海道摩周湖第三九分院・院長",
            "東帝大学病院・外科医局員"
         ],
-        quote: "",
+        quote: "御意",
         info: "ほにゃらら",
         photo: "https://www.tv-asahi.co.jp/doctor-x_06/cast/img/cast04.jpg",
         birthday: "",
@@ -104,7 +105,7 @@ const characterData = [
             "東帝大学病院・外科・准教授",
             "東帝大学病院・次世代超低侵襲外科治療担当部長"
         ],
-        quote: "",
+        quote: "デーモン",
         info: "ほにゃらら",
         photo: "https://www.tv-asahi.co.jp/doctor-x_04/cast/img/cast04.jpg",
         birthday: "",
@@ -121,7 +122,7 @@ const characterData = [
             "国立高度医療センター・戦略統合外科・外科医長",
             "東帝大学病院・外科医"
         ],
-        quote: "",
+        quote: "守、原守",
         info: "ほにゃらら",
         photo: "https://www.tv-asahi.co.jp/doctor-x_04/cast/img/cast14.jpg",
         birthday: "",
